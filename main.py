@@ -5,7 +5,7 @@ from turtle import Turtle, Screen
 def run_game():
     is_race_on = False
     screen = Screen()
-    screen.tracer(0)
+    screen.tracer(1)
     screen.title("Run Turtle Run")
     screen.setup(width=1200, height=600)
     screen.bgpic("run_path.png")
